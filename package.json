@@ -1,0 +1,15 @@
+{
+  "name": "mern-starter-fullstack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && yarn start\""
+  },
+  "keywords": [],
+  "author": "Masked Developer",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
